@@ -13,10 +13,10 @@ export default function Sidebar() {
       <h2 className="sidebar-title">Admin </h2>
       <ul className="sidebar-menu">
         <li className={isActive('/admin') ? 'active' : ''}>
-          <Link to="/admin">Người dùng</Link>
+          <Link to="/admin123">Người dùng</Link>
         </li>
         <li className={isActive('/admin/prices') ? 'active' : ''}>
-          <Link to="/admin/prices">Cài đặt gói</Link>
+          <Link to="/admin123/prices">Cài đặt gói</Link>
         </li>
         <li>
           <button onClick={() => navigate('/')} className="logout-btn">Đăng xuất</button>
