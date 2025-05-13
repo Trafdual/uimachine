@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import PriceTable from "./pages/UserPricingPage";
 import PriceManager from "./pages/AdminPlanEditor";
 import UserTable from "./components/UserTable";
-
+//https://api.hieuphungfpt.sbs/
 export default function App() {
   return (
     <Routes>
