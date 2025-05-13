@@ -1,0 +1,51 @@
+.price-table {
+  padding: 40px;
+  text-align: center;
+
+  h3 {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+
+  .price-columns {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; // để responsive khi thu nhỏ màn hình
+  }
+
+  .plan-card {
+    flex: 1 1 250px;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+
+    h4 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    p {
+      font-size: 15px;
+      color: #666;
+      min-height: 50px;
+    }
+
+    strong {
+      display: block;
+      margin-top: 15px;
+      font-size: 18px;
+      color: #007bff;
+    }
+  }
+}
